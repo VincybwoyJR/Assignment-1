@@ -45,3 +45,6 @@ function submitComment() {
   nameField.value = '';
   commentField.value = '';
 }
+
+const transcript = document.querySelector('.transcript');
+const transcriptBtn = document.querySelector('.transcript-container button');
